@@ -125,13 +125,13 @@ export const Footer: React.FC<FooterProps> = ({
               {(socialLinks.length > 0
                 ? socialLinks
                 : [
-                    { platform: "Google Scholar", url: "https://scholar.google.com", icon: "GraduationCap" },
-                    { platform: "ORCID", url: "https://orcid.org", icon: "Fingerprint" },
-                    { platform: "GitHub", url: "https://github.com", icon: "Github" },
-                    { platform: "LinkedIn", url: "https://linkedin.com", icon: "Linkedin" },
-                    { platform: "ResearchGate", url: "https://researchgate.net", icon: "Globe" },
-                    { platform: "NCBI / PubMed", url: "https://ncbi.nlm.nih.gov", icon: "BookOpen" },
-                  ]
+                  { platform: "Google Scholar", url: "https://scholar.google.com", icon: "GraduationCap" },
+                  { platform: "ORCID", url: "https://orcid.org", icon: "Fingerprint" },
+                  { platform: "GitHub", url: "https://github.com", icon: "Github" },
+                  { platform: "LinkedIn", url: "https://linkedin.com", icon: "Linkedin" },
+                  { platform: "ResearchGate", url: "https://researchgate.net", icon: "Globe" },
+                  { platform: "NCBI / PubMed", url: "https://ncbi.nlm.nih.gov", icon: "BookOpen" },
+                ]
               ).map((link) => (
                 <a
                   key={link.platform}
