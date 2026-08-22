@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-base: #f8f9ff;
+  --bg-alt: #eff4ff;
+  --bg-card: rgba(255, 255, 255, 0.82);
+  --bg-glass: rgba(255, 255, 255, 0.85);
+  --border-glass: rgba(213, 227, 253, 0.8);
+  --border-card-hover: rgba(0, 104, 95, 0.5);
+  --text-primary: #0d1c2f;
+  --text-secondary: #3d4947;
+  --text-body: #334155;
+  --text-muted: #6d7a77;
+  --accent-primary: #00685f;
+  --accent-secondary: #4059aa;
+  --accent-tertiary: #924628;
+  --shadow-card: 0 8px 32px 0 rgba(13, 28, 47, 0.06);
+  --shadow-card-hover: 0 14px 36px 0 rgba(0, 104, 95, 0.15);
+  --font-inter: 'Inter', sans-serif;
+  --font-jetbrains-mono: 'JetBrains Mono', monospace;
+}
+
+.dark {
+  --bg-base: #09121f;
+  --bg-alt: #0e1b2e;
+  --bg-card: rgba(17, 34, 56, 0.80);
+  --bg-glass: rgba(17, 34, 56, 0.85);
+  --border-glass: rgba(255, 255, 255, 0.12);
+  --border-card-hover: rgba(0, 191, 165, 0.5);
+  --text-primary: #f8f9ff;
+  --text-secondary: #ebf1ff;
+  --text-body: #94a3b8;
+  --text-muted: #64748b;
+  --accent-primary: #00bfa5;
+  --accent-secondary: #8fa7fe;
+  --accent-tertiary: #ffb59a;
+  --shadow-card: 0 8px 32px 0 rgba(0, 0, 0, 0.38);
+  --shadow-card-hover: 0 16px 40px 0 rgba(0, 191, 165, 0.22);
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-base);
+  color: var(--text-primary);
+  font-family: var(--font-inter);
+  overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  line-height: 1.6;
+}
+
+/* Synthesized Precision SVG Hexagon Grid Background Motif */
+.hexagon-grid-bg {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='97' viewBox='0 0 56 97'%3E%3Cpath d='M28 0 L56 16 L56 48 L28 64 L0 48 L0 16 Z M28 97 L56 81 L56 49 L28 33 L0 49 L0 81 Z' fill='none' stroke='%2300685f' stroke-width='0.6' stroke-opacity='0.08'/%3E%3C/svg%3E");
+  background-size: 56px 97px;
+}
+
+.dark .hexagon-grid-bg {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='97' viewBox='0 0 56 97'%3E%3Cpath d='M28 0 L56 16 L56 48 L28 64 L0 48 L0 16 Z M28 97 L56 81 L56 49 L28 33 L0 49 L0 81 Z' fill='none' stroke='%23ffffff' stroke-width='0.6' stroke-opacity='0.06'/%3E%3C/svg%3E");
+  background-size: 56px 97px;
+}
+
+/* Liquid Glass Card System */
+.liquid-glass-card {
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 
+    0 8px 32px 0 rgba(13, 28, 47, 0.05),
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.9),
+    inset 0 -1px 2px 0 rgba(0, 104, 95, 0.05);
+}
+
+.dark .liquid-glass-card {
+  background: rgba(17, 34, 56, 0.75);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 
+    0 8px 32px 0 rgba(0, 0, 0, 0.4),
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.15),
+    inset 0 -1px 2px 0 rgba(0, 191, 165, 0.1);
+}
+
+/* Glass Hover Transition */
+.glass-card-hover {
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.28s ease, border-color 0.28s ease;
+}
+
+.glass-card-hover:hover {
+  transform: translateY(-3px);
+  border-color: var(--border-card-hover);
+  box-shadow: var(--shadow-card-hover);
+}
+
+/* Typography Label MD in JetBrains Mono */
+.font-mono-label {
+  font-family: var(--font-jetbrains-mono);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-base);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(109, 122, 119, 0.4);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-primary);
+}

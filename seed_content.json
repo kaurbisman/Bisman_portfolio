@@ -1,0 +1,145 @@
+{
+  "_note": "PLACEHOLDER DATA — use this to seed the database / test the UI before real content is uploaded via Admin CMS. Replace every field marked [PLACEHOLDER] with real content from Bisman. Confirmed real facts are marked [REAL].",
+
+  "profile": {
+    "name": "Bisman Kaur",
+    "title": "IPhD Scholar, Biological Sciences — IISER Pune",
+    "tagline": "[PLACEHOLDER] Exploring the frontiers of biological sciences, one experiment at a time.",
+    "bio": "[PLACEHOLDER] Bisman Kaur is an IPhD scholar in Biological Sciences at IISER Pune, with a foundation in Biomedical Science from the University of Delhi. Her academic path — marked by an All India Rank of 38 in IIT JAM and JGEEBILS qualification — reflects a strong commitment to research excellence. Beyond academics, she has represented her interdisciplinary interests at the National One Health Hackathon, securing 1st place at the regional level and advancing as a Grand Finalist nationally.",
+    "profilePhoto": "[PLACEHOLDER: /assets/profile-photo.jpg]",
+    "resumeFileUrl": "[PLACEHOLDER: /assets/resume.pdf]",
+    "location": "[PLACEHOLDER] Pune, India",
+    "socialLinks": [
+      { "platform": "Email", "url": "mailto:bismankaur.placeholder@email.com" },
+      { "platform": "LinkedIn", "url": "https://linkedin.com/in/bisman-kaur-placeholder" },
+      { "platform": "Google Scholar", "url": "[PLACEHOLDER]" }
+    ]
+  },
+
+  "quickFacts": [
+    { "label": "Current Program", "value": "IPhD, Biological Sciences" },
+    { "label": "University", "value": "IISER Pune" },
+    { "label": "Bachelor's", "value": "B.Sc. (Hons.) Biomedical Science, DU" },
+    { "label": "IIT JAM Rank", "value": "AIR 38 [REAL]" }
+  ],
+
+  "education": [
+    {
+      "id": "edu-1",
+      "degree": "Integrated PhD (IPhD), Biological Sciences",
+      "institution": "IISER Pune",
+      "logo": "[PLACEHOLDER: /assets/logos/iiser-pune.svg]",
+      "startDate": "[PLACEHOLDER: 2025]",
+      "endDate": "Present",
+      "description": "[PLACEHOLDER] Currently pursuing research in Biological Sciences under the Integrated PhD program.",
+      "order": 1
+    },
+    {
+      "id": "edu-2",
+      "degree": "B.Sc. (Hons.) Biomedical Science",
+      "institution": "Bhaskaracharya College of Applied Sciences, University of Delhi",
+      "logo": "[PLACEHOLDER: /assets/logos/bcas-du.svg]",
+      "startDate": "[PLACEHOLDER: 2021]",
+      "endDate": "[PLACEHOLDER: 2024]",
+      "description": "[PLACEHOLDER] Completed undergraduate honors degree with a focus on biomedical science fundamentals.",
+      "order": 2
+    }
+  ],
+
+  "skillCategories": [
+    {
+      "id": "cat-1",
+      "name": "Lab & Technical Skills",
+      "order": 1,
+      "skills": [
+        { "id": "skill-1", "name": "[PLACEHOLDER] Molecular Biology Techniques", "icon": "flask", "proficiency": 80 },
+        { "id": "skill-2", "name": "[PLACEHOLDER] Microscopy", "icon": "microscope", "proficiency": 70 }
+      ]
+    },
+    {
+      "id": "cat-2",
+      "name": "Computational & Analytical Skills",
+      "order": 2,
+      "skills": [
+        { "id": "skill-3", "name": "[PLACEHOLDER] Data Analysis", "icon": "bar-chart", "proficiency": 65 },
+        { "id": "skill-4", "name": "[PLACEHOLDER] Bioinformatics Basics", "icon": "dna", "proficiency": 55 }
+      ]
+    },
+    {
+      "id": "cat-3",
+      "name": "Soft Skills",
+      "order": 3,
+      "skills": [
+        { "id": "skill-5", "name": "[PLACEHOLDER] Scientific Communication", "icon": "message-circle", "proficiency": 85 },
+        { "id": "skill-6", "name": "[PLACEHOLDER] Team Collaboration", "icon": "users", "proficiency": 90 }
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "[PLACEHOLDER] One Health Hackathon Project",
+      "description": "[PLACEHOLDER] Add a short description of the hackathon project — problem statement, approach, and outcome.",
+      "coverImage": "[PLACEHOLDER: /assets/projects/one-health.jpg]",
+      "tags": ["One Health", "Interdisciplinary Research"],
+      "links": { "repo": "", "demo": "", "paper": "" },
+      "order": 1
+    }
+  ],
+
+  "certifications": [
+    {
+      "id": "cert-1",
+      "title": "IIT JAM — All India Rank 38",
+      "issuer": "IIT / National Testing Agency",
+      "date": "[PLACEHOLDER: 2024]",
+      "fileUrl": "[PLACEHOLDER: /assets/certs/jam-scorecard.pdf]",
+      "verifyLink": "",
+      "order": 1
+    },
+    {
+      "id": "cert-2",
+      "title": "JGEEBILS Qualified",
+      "issuer": "Joint Graduate Entrance Examination for Biology and Interdisciplinary Life Sciences",
+      "date": "[PLACEHOLDER: 2024]",
+      "fileUrl": "[PLACEHOLDER: /assets/certs/jgeebils.pdf]",
+      "verifyLink": "",
+      "order": 2
+    }
+  ],
+
+  "achievements": [
+    {
+      "id": "ach-1",
+      "title": "1st Rank — Regional Level",
+      "level": "Regional",
+      "result": "1st Rank",
+      "description": "[PLACEHOLDER] National One Health Hackathon — secured first rank at the regional round.",
+      "date": "[PLACEHOLDER: 2024]",
+      "image": "[PLACEHOLDER: /assets/achievements/hackathon-regional.jpg]",
+      "order": 1
+    },
+    {
+      "id": "ach-2",
+      "title": "Grand Finalist — National Level",
+      "level": "National",
+      "result": "Grand Finalist",
+      "description": "[PLACEHOLDER] National One Health Hackathon — advanced to the national grand finale.",
+      "date": "[PLACEHOLDER: 2024]",
+      "image": "[PLACEHOLDER: /assets/achievements/hackathon-national.jpg]",
+      "order": 2
+    }
+  ],
+
+  "gallery": [
+    { "id": "gal-1", "url": "[PLACEHOLDER: /assets/gallery/1.jpg]", "caption": "[PLACEHOLDER]", "order": 1 },
+    { "id": "gal-2", "url": "[PLACEHOLDER: /assets/gallery/2.jpg]", "caption": "[PLACEHOLDER]", "order": 2 },
+    { "id": "gal-3", "url": "[PLACEHOLDER: /assets/gallery/3.jpg]", "caption": "[PLACEHOLDER]", "order": 3 }
+  ],
+
+  "themeSettings": {
+    "defaultMode": "system",
+    "accentColorOverride": null
+  }
+}
